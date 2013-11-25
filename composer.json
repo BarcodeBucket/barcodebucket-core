@@ -1,5 +1,5 @@
 {
-    "name": "barcodebucket/core",
+    "name": "barcodebucket/barcodebucket-core",
     "description": "BarcodeBucket core classes",
     "license": "MIT",
     "autoload": {
