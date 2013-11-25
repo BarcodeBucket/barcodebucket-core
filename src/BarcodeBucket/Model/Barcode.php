@@ -19,21 +19,13 @@ class Barcode
     private $gtin;
 
     /**
-     * @param string $gtin
      * @param string $uuid
+     * @param string $gtin
      */
-    public function __construct($gtin, $uuid)
+    public function __construct($uuid, $gtin)
     {
-        $this->gtin = $gtin;
         $this->uuid = $uuid;
-    }
-
-    /**
-     * @return string
-     */
-    public function getGtin()
-    {
-        return $this->gtin;
+        $this->gtin = $gtin;
     }
 
     /**
@@ -42,5 +34,13 @@ class Barcode
     public function getUuid()
     {
         return $this->uuid;
+    }
+
+    /**
+     * @return string
+     */
+    public function getGtin()
+    {
+        return $this->gtin;
     }
 }
