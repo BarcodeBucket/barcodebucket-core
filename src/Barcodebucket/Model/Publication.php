@@ -1,6 +1,6 @@
 <?php
 
-namespace BarcodeBucket\Model;
+namespace Barcodebucket\Model;
 
 /**
  * Class Publication

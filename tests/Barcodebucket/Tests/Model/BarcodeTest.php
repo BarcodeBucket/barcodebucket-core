@@ -1,8 +1,8 @@
 <?php
 
-namespace BarcodeBucket\Tests\Model;
+namespace Barcodebucket\Tests\Model;
 
-use BarcodeBucket\Model\Barcode;
+use Barcodebucket\Model\Barcode;
 
 /**
  * Class BarcodeTest

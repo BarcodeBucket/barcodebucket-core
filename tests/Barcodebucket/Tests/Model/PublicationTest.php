@@ -1,8 +1,8 @@
 <?php
 
-namespace BarcodeBucket\Tests\Model;
+namespace Barcodebucket\Tests\Model;
 
-use BarcodeBucket\Model\Publication;
+use Barcodebucket\Model\Publication;
 
 /**
  * Class PublicationTest

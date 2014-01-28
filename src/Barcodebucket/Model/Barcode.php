@@ -1,10 +1,10 @@
 <?php
 
-namespace BarcodeBucket\Model;
+namespace Barcodebucket\Model;
 
 /**
  * Class Barcode
- * @package BarcodeBucket\Model
+ * @package Barcodebucket\Model
  */
 class Barcode
 {
