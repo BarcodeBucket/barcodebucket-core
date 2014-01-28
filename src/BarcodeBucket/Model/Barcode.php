@@ -11,12 +11,12 @@ class Barcode
     /**
      * @var string
      */
-    private $uuid;
+    protected $uuid;
 
     /**
      * @var string
      */
-    private $gtin;
+    protected $gtin;
 
     /**
      * @param string $uuid
